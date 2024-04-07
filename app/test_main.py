@@ -29,7 +29,7 @@ class TestCoinCombination:
             )
         ]
     )
-    def test_get_correct_human_age(self,
-                                   cents: int,
-                                   expected_combination: list) -> None:
+    def test_coin_combination(self,
+                              cents: int,
+                              expected_combination: list) -> None:
         assert get_coin_combination(cents) == expected_combination
